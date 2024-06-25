@@ -22,8 +22,10 @@ public class HelloWorldApplication {
 		 *    - 서버 인스턴스 실행
 		 * 5. ApplicationRunner 인터페이스를 구현한 Bean을 Application Container에서 찾아서 실행
 		 */
+		
 		try(ConfigurableApplicationContext ac = SpringApplication.run(HelloWorldApplication.class, args)) {}
 		
+		// 위 한 줄과 같음 !!
 //		ApplicationContext ac = null;
 //		
 //		try {
