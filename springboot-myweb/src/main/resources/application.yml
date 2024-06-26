@@ -3,6 +3,10 @@
 spring:
    application:
       name: myweb
+     
+   devtools:
+      livereload:
+         enabled: true
       
    thymeleaf:
       check-template-location: true
